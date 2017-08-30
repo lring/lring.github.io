@@ -1,1 +1,16 @@
+.lazlo {
+  width: 200px;
+  height: 200px;
+}
 
+main {
+  padding-top: 56px;
+}
+.jumbotron {
+  min-height: 400px;
+  background: url(../img/Lazlo-Ring-hero-image-1500x625.jpg) no-repeat center;
+  background-size: cover;
+}
+.jumbotron h1 {
+  color: white;
+}
