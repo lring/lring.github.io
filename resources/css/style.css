@@ -2,20 +2,27 @@
   width: 200px;
   height: 200px;
 }
-
 main {
   padding-top: 56px;
   padding-bottom: 56px;
+}
+footer {
+  text-align: center;
+  width: 100%;
+}
+.publications, .demos {
+  padding-top: 64px;
 }
 .jumbotron {
   min-height: 400px;
   background: url(../img/Lazlo-Ring-hero-image-1500x625.jpg) no-repeat center;
   background-size: cover;
+  color:white;
 }
-.jumbotron h1 {
-  color: white;
+.publication {
+  min-height: 150px;
+  padding: 20px;
 }
-footer {
-  text-align: center;
-  width: 100%;
+.publication:nth-child(odd) {
+  background-color: hsl(0,0%,90%);
 }
